@@ -26,8 +26,6 @@ public class Start extends World
      */
     private void prepare()
     {
-        Play play = new Play();
-        addObject(play,148,520);
         About about = new About();
         addObject(about,475,515);
         Tutorial tutorial = new Tutorial();
@@ -35,7 +33,7 @@ public class Start extends World
 
 
         
-        play.setLocation(150,389);
+     
         about.setLocation(450,389);
         tutorial.setLocation(800,389);
     }
